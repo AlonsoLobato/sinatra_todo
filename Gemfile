@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.0'
+ruby '3.0.2'
 
 gem 'erubis'
 gem 'sinatra', '~>1.4.7'

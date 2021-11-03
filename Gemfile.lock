@@ -26,6 +26,7 @@ GEM
     tilt (2.0.10)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-darwin-21
   x86_64-linux
 
@@ -36,7 +37,7 @@ DEPENDENCIES
   sinatra-contrib
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.30
