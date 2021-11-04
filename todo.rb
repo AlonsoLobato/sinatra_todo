@@ -113,7 +113,7 @@ end
 # View an existing list
 get '/lists/:list_id' do
   @list_id = params[:list_id].to_i
-  @list = session[:lists][@list_id]
+  @list = load_list(@list_id)
   erb :list
 end
 
