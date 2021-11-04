@@ -7,6 +7,7 @@ require 'tilt/erubis'
 configure do
   enable :sessions # this activates the Sinatra sessions support
   set :session_secret, 'secret' # this sets the session_secret; the name here is just random
+  set :erb, :escape_html => true
 end
 
 helpers do # here we put methods that we want to have use in both, the application file and any template (methods non intended to be used in the templates, shouldn't be placed in here)
